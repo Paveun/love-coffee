@@ -11,7 +11,7 @@ function App() {
         <FontAwesomeIcon icon={faCoffee} className="coffee-icon" />
         <h1>paveun.</h1>
       </div>
-
+      <div class="wave-background"></div>
       <div className="wave-container">
         <Wave
           fill="#d2b09b"
@@ -20,7 +20,7 @@ function App() {
             height: 60,
             amplitude: 50,
             speed: 0.2,
-            points: 4,
+            points: 3,
           }}
         />
       </div>
