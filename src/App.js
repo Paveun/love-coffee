@@ -16,10 +16,11 @@ function App() {
         <Wave
           fill="#d2b09b"
           paused={false}
+          style={{ display: 'flex' }}
           options={{
-            height: 60,
-            amplitude: 50,
-            speed: 0.2,
+            height: 30,
+            amplitude: 30,
+            speed: 0.15,
             points: 3,
           }}
         />
