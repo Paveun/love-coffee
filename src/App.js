@@ -11,14 +11,13 @@ function App() {
         <FontAwesomeIcon icon={faCoffee} className="coffee-icon" />
         <h1>paveun.</h1>
       </div>
-      <div class="wave-background"></div>
       <div className="wave-container">
         <Wave
           fill="#d2b09b"
           paused={false}
           style={{ display: 'flex' }}
           options={{
-            height: 30,
+            height: 20,
             amplitude: 30,
             speed: 0.15,
             points: 3,

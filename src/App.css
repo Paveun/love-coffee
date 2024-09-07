@@ -51,21 +51,11 @@ h1 {
   color: #d2b09b;
 }
 
-/* .wave-background {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  height: 18vh;
-  background-color: #d2b09b;
-  z-index: 0;
-  animation: slideUp 2s ease-in-out;
-} */
-
 .wave-container {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  height: 13vw;
+  /* height: 20vw; */
   z-index: 1;
   overflow: hidden;
   animation: slideUp 3s ease-in-out;
