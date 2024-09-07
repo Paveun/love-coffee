@@ -1,0 +1,60 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #d2b09b;
+  margin-top: 20px;
+}
+
+.coffee-icon {
+  font-size: 6rem;
+  color: #d2b09b;
+}
+
+.wave-container {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  z-index: 0;
+  overflow: hidden;
+}
