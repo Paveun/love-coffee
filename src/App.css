@@ -9,8 +9,8 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: Arial, sans-serif;
-  background-color: #1c1c1c;
-  color: #f0f0f0;
+  background-color: #303446;
+  color: #f2d5cf;
 }
 
 body {
@@ -41,14 +41,14 @@ body {
 
 h1 {
   font-size: 4rem;
-  color: #d2b09b;
+  color: #f2d5cf;
   margin-top: 20px;
   animation: fadeIn 5s ease-in-out;
 }
 
 .coffee-icon {
   font-size: 6rem;
-  color: #d2b09b;
+  color: #f2d5cf;
 }
 
 .wave-container {

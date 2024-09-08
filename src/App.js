@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="wave-container">
         <Wave
-          fill="#d2b09b"
+          fill="#f2d5cf"
           paused={false}
           style={{ display: 'flex' }}
           options={{
